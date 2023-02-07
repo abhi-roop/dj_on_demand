@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {  FaSearch, IconName } from "react-icons/fa";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Musha
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className='contain'>
+        <div className='icon'>
+        <FaSearch/>
+        </div>
+        
+      </div>
       </header>
     </div>
   );
